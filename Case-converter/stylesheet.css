@@ -1,0 +1,29 @@
+.title {
+    font-size: 2em;
+    color: cornflowerblue;
+}
+.button{
+    margin-top: 2em;
+    margin-left: 4px;
+}
+#proper-case,#upper-case,#lower-case,#sentence-case,#save-text-file{
+    background: chocolate;
+    height: 3em;
+    width: 10em;
+    border-radius: 5px;
+}
+.set {
+    height: 500px;
+    width: 900px;
+    margin-top: 1em;
+
+}
+#text1 {
+    height: 100%;
+    width: 100%;
+    color: darkviolet;
+    background: darkgrey;
+    font-size: 20px;
+    font-family: "Times New Roman";
+    resize: none;
+}
