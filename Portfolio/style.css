@@ -1,0 +1,183 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+header{
+    background: #0a53be;
+}
+.contain{
+    background-image: url("images/bg2.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    max-width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0;
+}
+.contain h1{
+    position: absolute;
+    left: 20%;
+    color: black;
+    top: 50%;
+    font-size: 4em;
+    font-family: 'Satisfy', cursive;
+}
+
+.contain a{
+    position: relative;
+    margin-right: 20px;
+    color: azure;
+    text-decoration-line: none;
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+.contain a:hover{
+    background: gray;
+}
+/*page one end*/
+/*page two start----------------------------------*/
+
+#about{
+    background: darkgray;
+    height: 100%;
+    margin: 0;
+    position: relative;
+}
+#about > p{
+    position: relative;
+    top: 30%;
+    font-family: "Yu Gothic UI Semibold";
+}
+#about > h2{
+    position: absolute;
+    left: 55%;
+    top: 15%;
+    font-family: "Edwardian Script ITC";
+    font-size: 3em;
+}
+#img1{
+    position: relative;
+    margin-left: 370px;
+    z-index: 2;
+    margin-top: 200px;
+    float: left;
+    margin-right: 100px;
+}
+#img22{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+    z-index: 1;
+}
+/* ------------------------------------------------------*/
+#portfolio{
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background: gray;
+
+}
+.p_image{
+    height: 50%;
+    width: 40%;
+    margin-right: 10px;
+    position: relative;
+    top: 25%;
+
+}
+#portfolio > h2{
+    position: absolute;
+    left:43%;
+    top: 10%;
+    font-size: 2em;
+    font-family: "Baskerville Old Face";
+}
+#t1{
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+#t2{
+    position: absolute;
+    top: 70%;
+    left: 65%;
+}
+#btn_1{
+    position: absolute;
+    top: 80%;
+    left: 22%;
+}
+#btn_2{
+    position: absolute;
+    top: 80%;
+    left: 62%;
+}
+.open-window{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background: #25cff2;
+    border-radius: 10px;
+}
+.open-window:hover{
+    background: #0a53be;
+}
+.window{
+    border: 5px solid black;
+    position: fixed;
+    border-radius: 20px;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: wheat;
+    padding: 10px;
+    text-align: justify;
+    display: none;
+}
+.window h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+}
+.window button{
+    display: block;
+    margin: 30px auto;
+    width: 300px;
+    background: deepskyblue;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.window button:hover{
+    background: green;
+}
+
+/*------------------*/
+#contacts{
+    text-align: center;
+    font-family: "Lucida Sans";
+}
+#contacts>h2{
+    margin-left: -10px;
+}
+#contacts>img{
+    height: 50px;
+    width: 50px;
+}
+#contacts >p>a{
+    color: blue;
+}
+footer{
+    background: black;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin-left: -10px;
+}
